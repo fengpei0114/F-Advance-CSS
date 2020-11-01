@@ -1,0 +1,34 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+ padding-left: 80px;
+ padding-right: 80px;
+ background-color: #262626;
+ color: #a7aeb6;
+ line-height: 50px;
+}
+
+ul {
+ list-style: none;
+ margin: 0;
+ padding: 0;
+}
+
+.items {
+ display: flex;
+ justify-content: space-between;
+}
+
+.footer {
+ background-color: #f9f9f9;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-flow: column;
+ height: 70px;
+ border-top: 1px solid #e4e4e4;
+}
