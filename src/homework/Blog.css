@@ -32,3 +32,49 @@ ul {
  height: 70px;
  border-top: 1px solid #e4e4e4;
 }
+
+.main {
+ display: flex;
+ padding-left: 80px;
+ padding-right: 80px;
+ justify-content: space-between;
+ background-color: white;
+ width: 100%;
+ margin-top: 20px;
+ margin-bottom: 40px;
+}
+
+.toolbar {
+ display: flex;
+ flex-direction: column;
+}
+
+.about {
+ background-color: #f8f9fa;
+ height: 300px;
+ width: 200px;
+ margin-top: 20px;
+}
+
+.toolbar-title {
+ padding-left: 20px;
+ margin-top: 40px;
+ font-size: 30px;
+ font-weight: bold;
+}
+
+.about-content {
+ padding-left: 20px;
+ padding-right: 20px;
+}
+
+.archivers {
+ background-color: white;
+ height: 360px;
+ width: 200px;
+}
+
+.archivers-content {
+ padding-left: 20px;
+ color: #9775b8;
+}
